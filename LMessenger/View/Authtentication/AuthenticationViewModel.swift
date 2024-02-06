@@ -82,7 +82,7 @@ class AuthenticationViewModel : ObservableObject {
             
         case .logout:
             container.services.authService.logout().sink { completion in
-                <#code#>
+                
             } receiveValue: { [weak self] _ in
                 self?.authenticationState = .unauthenticated
                 self?.userId = nil

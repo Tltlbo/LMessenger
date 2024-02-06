@@ -28,6 +28,7 @@
 		4E1489FD2B725D2C00F92EA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1489FC2B725D2C00F92EA5 /* GoogleService-Info.plist */; };
 		4E148A012B7262B000F92EA5 /* RandomNonceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489FF2B7262B000F92EA5 /* RandomNonceString.swift */; };
 		4E148A022B7262B000F92EA5 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E148A002B7262B000F92EA5 /* SHA256.swift */; };
+		4E148A042B72733C00F92EA5 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4E148A032B72733C00F92EA5 /* FirebaseDatabase */; };
 		723ABD872AFFF1B800C260F1 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */; };
 		723ABD892AFFF1B800C260F1 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD882AFFF1B800C260F1 /* AuthenticatedView.swift */; };
 		723ABD8B2AFFF1B900C260F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723ABD8A2AFFF1B900C260F1 /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E148A042B72733C00F92EA5 /* FirebaseDatabase in Frameworks */,
 				4E1489D62B6E844000F92EA5 /* FirebaseAuth in Frameworks */,
 				4E1489EA2B6FD70800F92EA5 /* GoogleSignIn in Frameworks */,
 			);
@@ -321,6 +323,7 @@
 			packageProductDependencies = (
 				4E1489D52B6E844000F92EA5 /* FirebaseAuth */,
 				4E1489E92B6FD70800F92EA5 /* GoogleSignIn */,
+				4E148A032B72733C00F92EA5 /* FirebaseDatabase */,
 			);
 			productName = LMessenger;
 			productReference = 723ABD832AFFF1B800C260F1 /* LMessenger.app */;
@@ -821,6 +824,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E1489E82B6FD70800F92EA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignIn;
+		};
+		4E148A032B72733C00F92EA5 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E1489D12B6E822300F92EA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
