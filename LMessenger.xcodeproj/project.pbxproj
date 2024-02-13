@@ -41,6 +41,7 @@
 		4E148A292B7A63FF00F92EA5 /* HomeModalDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E148A282B7A63FF00F92EA5 /* HomeModalDestination.swift */; };
 		4E148A2C2B7A64A100F92EA5 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E148A2B2B7A64A100F92EA5 /* MyProfileView.swift */; };
 		4E148A2E2B7A64AF00F92EA5 /* OtherProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E148A2D2B7A64AF00F92EA5 /* OtherProfileView.swift */; };
+		4E148A302B7BAF7D00F92EA5 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E148A2F2B7BAF7D00F92EA5 /* ContactService.swift */; };
 		723ABD872AFFF1B800C260F1 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */; };
 		723ABD892AFFF1B800C260F1 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD882AFFF1B800C260F1 /* AuthenticatedView.swift */; };
 		723ABD8B2AFFF1B900C260F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723ABD8A2AFFF1B900C260F1 /* Assets.xcassets */; };
@@ -103,6 +104,7 @@
 		4E148A282B7A63FF00F92EA5 /* HomeModalDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModalDestination.swift; sourceTree = "<group>"; };
 		4E148A2B2B7A64A100F92EA5 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		4E148A2D2B7A64AF00F92EA5 /* OtherProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherProfileView.swift; sourceTree = "<group>"; };
+		4E148A2F2B7BAF7D00F92EA5 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
 		723ABD832AFFF1B800C260F1 /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerApp.swift; sourceTree = "<group>"; };
 		723ABD882AFFF1B800C260F1 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				4E1489DA2B6E860800F92EA5 /* AuthenticationService.swift */,
 				4E1489EE2B6FD84E00F92EA5 /* ServiceError.swift */,
 				4E148A132B791EEE00F92EA5 /* UserService.swift */,
+				4E148A2F2B7BAF7D00F92EA5 /* ContactService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				4E148A272B7A62A700F92EA5 /* ErrorView.swift in Sources */,
 				4E148A252B7A624500F92EA5 /* LoadingView.swift in Sources */,
 				4E148A202B7A612F00F92EA5 /* Phase.swift in Sources */,
+				4E148A302B7BAF7D00F92EA5 /* ContactService.swift in Sources */,
 				4E1489DF2B6E87EF00F92EA5 /* LoginIntroView.swift in Sources */,
 				4E1489CE2B6E319900F92EA5 /* AuthenticationViewModel.swift in Sources */,
 				4E148A232B7A621100F92EA5 /* PlaceholderView.swift in Sources */,
@@ -709,6 +713,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "친구 목록을 가져옵니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -740,6 +745,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "친구 목록을 가져옵니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
